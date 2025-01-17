@@ -6,6 +6,9 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Table(name = "users")
 @Setter
 @Getter
@@ -25,17 +28,22 @@ public class UserEntity {
     private String password;
 
     @Column(nullable = true)
-    private String username;
-
+    private String name;
 
     @Column(nullable = true)
     private String nickname;
 
-    @Enumerated(EnumType.STRING)
-    private RoleType role;
+    @Column(nullable = true)
+    private String provider;
 
-    //@OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
-    //private Set<UserRoleEntity> roles = new HashSet<>();
+    @Column(nullable = true)
+    private String providerId;
+
+//    @Enumerated(EnumType.STRING) 이미 roles로 관리하고 있음 지웁니당
+//    private RoleType role;
+
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+    private Set<UserRoleEntity> roles = new HashSet<>();
 
     public UserEntity() {
 
