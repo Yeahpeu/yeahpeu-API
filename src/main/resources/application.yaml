@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: api
+  profiles:
+    active: dev
+
+  datasource:
+    driver-class-name: ${datasource.driver.name}
+    url: ${datasurce.url}
+    username: ${datasurce.username}
+    password: ${datasurce.password}
+
+  security:
+    oauth2:
+      redirect-uri-prefix: ${oauth2.prefix}
+      client:
+        registration:
+          google:
+            client-name: google
+            client-id: ${oauth2.google.id}
+            client-secret: ${oauth2.google.key}
+            redirect-uri: ${oauth2.google.url}
+            authorization-grant-type: authorization_code
+            scope:
+              - email
+              - profile
+          
