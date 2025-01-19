@@ -5,6 +5,11 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import static jakarta.persistence.FetchType.LAZY;
+
 @Getter
 @Setter
 @Entity
@@ -12,10 +17,13 @@ import lombok.Setter;
 public class WishlistEntity extends BaseEntity {
 
     @Id
-    @Column(name = "message_id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "sender_id", nullable = false)
+    @OneToOne(fetch = LAZY)
+    @JoinColumn(name = "wedding_id", nullable = false)
     private WeddingEntity wedding;
+
+    @OneToMany(mappedBy = "wishlist", fetch = LAZY)
+    private List<WishItem> wishItems = new ArrayList<>();
 }
