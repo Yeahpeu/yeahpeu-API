@@ -1,6 +1,7 @@
 package com.yeahpeu.entities.chat;
 
 
+import com.yeahpeu.entities.common.BaseEntity;
 import com.yeahpeu.user.entity.UserEntity;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -17,7 +18,7 @@ import lombok.Setter;
                 @Index(name = "idx_user_room", columnList = "user_id, chat_room_id", unique = true)
         }
 )
-public class ChatRoomUserEntity extends UserEntity {
+public class ChatRoomUserEntity extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
