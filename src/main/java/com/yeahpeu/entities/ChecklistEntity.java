@@ -1,6 +1,6 @@
 package com.yeahpeu.entities;
 
-import com.yeahpeu.entities.common.BaseEntity;
+import com.yeahpeu.common.domain.BaseEntity;
 import jakarta.persistence.*;
 
 @Entity

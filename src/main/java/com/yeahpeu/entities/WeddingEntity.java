@@ -1,6 +1,6 @@
 package com.yeahpeu.entities;
 
-import com.yeahpeu.entities.common.BaseEntity;
+import com.yeahpeu.common.domain.BaseEntity;
 import com.yeahpeu.user.entity.UserEntity;
 import jakarta.persistence.*;
 
@@ -15,11 +15,11 @@ public class WeddingEntity extends BaseEntity {
     private Long id;
 
     @OneToOne
-    @JoinColumn(name = "bride_id", nullable = false)
+    @JoinColumn(name = "bride_id", nullable = true)
     private UserEntity bride;
 
     @OneToOne
-    @JoinColumn(name = "groom_id", nullable = false)
+    @JoinColumn(name = "groom_id", nullable = true)
     private UserEntity groom;
 
     @Column(name = "wedding_day", nullable = false)

@@ -13,13 +13,12 @@ import java.util.Optional;
 @Repository
 public interface UserRepository extends JpaRepository<UserEntity, Long> {
 
-    Boolean existsByUsername(String username);
+    Boolean existsByName(String username);
 
-    Optional<UserEntity> findByUsername(String username);
+    Optional<UserEntity> findByName(String username);
 
     @Query("""
         SELECT u FROM UserEntity u
-        JOIN FETCH u.role r
         WHERE u.emailAddress = :emailAddress
     """)
     Optional<UserEntity> findByEmailAddress(@Param("emailAddress") String emailAddress);

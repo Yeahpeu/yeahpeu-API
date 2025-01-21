@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: chat-server
+  config:
+    import: optional:file:.env[.properties] #ENV 파일 자동 설정
+
+  datasource:
+    url: jdbc:mysql://localhost:23214/yeahpeu?serverTimezone=UTCuseSSL=false
+    username: user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+application:
+  security:
+    jwt:
+      secret-key: aEVSS1kwanBWVUVSMTVUeVVQbFdsTVFpd2x1UG9lY1I= # hERKY0jpVUER15TyUPlWlMQiwluPoecR
+      access-token-expiration: 86400000 # 1 day
+      refresh-token-expiration: 604800000 # 7 days
+
+app:
+  cors:
+    allow-hosts:
+      - "http://localhost:3000"
+
+logging:
+  level:
+    org:
+      springframework:
+        messaging:
+          simp: DEBUG
+
+#cloud:
+#  aws:
+#    s3:
+#      bucket: ${AWS_BUCKET_NAME}
+#    stack.auto: false
+#    region.static: ap-northeast-2
+#    credentials:
+#      accessKey: ${AWS_ACCESS_KEY}
+#      secretKey: ${AWS_SECRET_KEY}
