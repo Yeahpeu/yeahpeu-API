@@ -14,7 +14,7 @@ import java.util.Collections;
 
 
 @OpenAPIDefinition(
-        info = @Info(title = "소셜로그인 서버 API", version = "1.0.0")
+        info = @Info(title = "Yeahpeu 서버 API", version = "1.0.0")
 )
 @Configuration
 public class SwaggerConfig {

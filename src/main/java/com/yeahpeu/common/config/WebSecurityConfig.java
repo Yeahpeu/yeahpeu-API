@@ -45,7 +45,7 @@ public class WebSecurityConfig {
                 authorize -> authorize
                         .requestMatchers("/api/v1/auth/**", "/api/ws/**").permitAll()
                         .requestMatchers(
-                                "/swagger-ui/**", "/swagger-ui.html", "/v3/api-docs/**", "/swagger-resources/**"
+                                "/swagger-ui/**", "/swagger-ui.html", "/v3/api-docs/**", "/swagger-resources/**", "/webjars/**"
                         ).permitAll()
                         .anyRequest().authenticated()
         ).addFilterBefore(jwtTokenFilter, BasicAuthenticationFilter.class)

@@ -5,7 +5,7 @@ spring:
     import: optional:file:.env[.properties] #ENV 파일 자동 설정
 
   datasource:
-    url: jdbc:mysql://localhost:23214/yeahpeu?serverTimezone=UTCuseSSL=false
+    url: jdbc:mysql://localhost:23214/yeahpeu?serverTimezone=UTC
     username: user
     password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -34,6 +34,7 @@ app:
   cors:
     allow-hosts:
       - "http://localhost:3000"
+      - "http://localhost:8080"
 
 logging:
   level:

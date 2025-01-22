@@ -24,6 +24,9 @@ public class WishlistEntity extends BaseEntity {
     @JoinColumn(name = "wedding_id", nullable = false)
     private WeddingEntity wedding;
 
+    @Column
+    private String title;
+
     @OneToMany(mappedBy = "wishlist", fetch = LAZY)
     private List<WishItem> wishItems = new ArrayList<>();
 }
