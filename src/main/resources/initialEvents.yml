@@ -1,0 +1,442 @@
+onboarding:
+  maps:
+    events:
+      101:
+        - event:
+            title: "(샘플)결혼식장 방문 예약"
+            mainCategoryId: 1
+            subCategoryId: 101
+            price: 0
+            location: "미정"
+            weeksBefore: 47
+          tasks: [ ]
+        - event:
+            title: "(샘플)두근두근 결혼식 당일"
+            mainCategoryId: 1
+            subCategoryId: 101
+            price: 0
+            location: "미정"
+            weeksBefore: 0
+          tasks: [ ]
+        - event:
+            title: "(샘플)결혼식장 방문"
+            mainCategoryId: 1
+            subCategoryId: 101
+            price: 0
+            location: "미정"
+            weeksBefore: 43
+          tasks:
+            - "결혼식 진행 시간 확인"
+            - "결혼식 후 피로연 등에 주어지는 시간 확인"
+            - "주차 공간 및 주차비 발생 여부 확인"
+        - event:
+            title: "(샘플)결혼식장 결정"
+            mainCategoryId: 1
+            subCategoryId: 101
+            price: 0
+            location: "미정"
+            weeksBefore: 42
+          tasks:
+            - "식장 예약 확인서 확인"
+
+      102:
+        - event:
+            title: "(샘플)부모님 일정 조율"
+            mainCategoryId: 1
+            subCategoryId: 102
+            price: 0
+            location: "미정"
+            weeksBefore: 40
+          tasks:
+            - "형제자매 참석 여부 확인"
+        - event:
+            title: "(샘플)상견례 장소 예약"
+            mainCategoryId: 1
+            subCategoryId: 102
+            price: 0
+            location: "미정"
+            weeksBefore: 38
+          tasks:
+            - "양가 부모님 선호 음식 및 못 드시는 음식 확인"
+            - "식당 분위기 확인"
+        - event:
+            title: "(샘플)상견례 선물 준비"
+            mainCategoryId: 1
+            subCategoryId: 102
+            price: 0
+            location: "미정"
+            weeksBefore: 38
+          tasks: [ ]
+        - event:
+            title: "(샘플)상견례"
+            mainCategoryId: 1
+            subCategoryId: 102
+            price: 0
+            location: "미정"
+            weeksBefore: 36
+          tasks:
+            - "대화 주제 준비"
+
+      103:
+        - event:
+            title: "(샘플)가방순이 선정"
+            mainCategoryId: 1
+            subCategoryId: 103
+            price: 0
+            location: "미정"
+            weeksBefore: 30
+          tasks: [ ]
+
+      104:
+        - event:
+            title: "(샘플)축가 선정"
+            mainCategoryId: 1
+            subCategoryId: 104
+            price: 0
+            location: "미정"
+            weeksBefore: 30
+          tasks:
+            - "축가 분위기 및 노래 선정"
+
+      105:
+        - event:
+            title: "(샘플)사회자 선정"
+            mainCategoryId: 1
+            subCategoryId: 105
+            price: 0
+            location: "미정"
+            weeksBefore: 30
+          tasks:
+            - "진행에 필요한 정보 마련"
+
+      106:
+        - event:
+            title: "(샘플)주례 선정"
+            mainCategoryId: 1
+            subCategoryId: 106
+            price: 0
+            location: "미정"
+            weeksBefore: 30
+          tasks: [ ]
+
+      107:
+        - event:
+            title: "(샘플)축의대 선정"
+            mainCategoryId: 1
+            subCategoryId: 107
+            price: 0
+            location: "미정"
+            weeksBefore: 30
+          tasks:
+            - "신부 측 두 명 섭외"
+            - "신랑 측 두 명 섭외"
+
+      108:
+        - event:
+            title: "(샘플)DVD 예약"
+            mainCategoryId: 1
+            subCategoryId: 108
+            price: 0
+            location: "미정"
+            weeksBefore: 21
+          tasks:
+            - "스튜디오 연계 여부 확인"
+            - "샘플 영상 확인"
+        - event:
+            title: "(샘플)스냅사진 예약"
+            mainCategoryId: 1
+            subCategoryId: 108
+            price: 0
+            location: "미정"
+            weeksBefore: 21
+          tasks:
+            - "스튜디오 연계 여부 확인"
+            - "포트폴리오 확인"
+            - "필요한 소품 생각"
+            - "표정 연습"
+
+      109:
+        - event:
+            title: "(샘플)종이 청첩장 확인"
+            mainCategoryId: 1
+            subCategoryId: 109
+            price: 0
+            location: "미정"
+            weeksBefore: 10
+          tasks:
+            - "날짜, 이름, 계좌 정보 오류 확인"
+        - event:
+            title: "(샘플)모바일 청첩장 확인"
+            mainCategoryId: 1
+            subCategoryId: 109
+            price: 0
+            location: "미정"
+            weeksBefore: 10
+          tasks: [ ]
+        - event:
+            title: "(샘플)식전 영상 확인"
+            mainCategoryId: 1
+            subCategoryId: 109
+            price: 0
+            location: "미정"
+            weeksBefore: 10
+          tasks:
+            - "모바일 청첩장 제작 시 함께 제작해주는지 확인"
+
+      110:
+        - event:
+            title: "(샘플)부케 예약"
+            mainCategoryId: 1
+            subCategoryId: 110
+            price: 0
+            location: "미정"
+            weeksBefore: 5
+          tasks:
+            - "예신이 선호하는 꽃 종류 확인
+            - ex) 화이트 톤
+            - ex) 컬러 톤"
+            - "배송일 확인"
+
+      111:
+        - event:
+            title: "(샘플)청첩장 모임"
+            mainCategoryId: 1
+            subCategoryId: 111
+            price: 0
+            location: "미정"
+            weeksBefore: 9
+          tasks: [ ]
+
+      112:
+        - event:
+            title: "(샘플)결혼 답례품 준비"
+            mainCategoryId: 1
+            subCategoryId: 112
+            price: 0
+            location: "미정"
+            weeksBefore: -1
+          tasks:
+            - "식권 미사용 하객용 답례품 준비"
+            - "웨딩 어시스트(사회자, 축가, 가방순이 등) 답례품 준비"
+            - "사내 답례품 준비"
+
+      201:
+        - event:
+            title: "(샘플)1차 드레스 투어 예약"
+            mainCategoryId: 2
+            subCategoryId: 201
+            price: 0
+            location: "미정"
+            weeksBefore: 28
+          tasks: [ ]
+        - event:
+            title: "(샘플)1차 드레스 투어"
+            mainCategoryId: 2
+            subCategoryId: 201
+            price: 0
+            location: "미정"
+            weeksBefore: 24
+          tasks:
+            - "맘에 드는 드레스샵 결정"
+            - "예신이 원하는 디자인 및 분위기 확인"
+            - "ex) 머메이드 라인"
+            - "ex) A라인"
+            - "ex) 엠파이어 라인"
+            - "ex) 프린세스 라인"
+            - "ex) H 라인"
+            - "ex) 벨 라인"
+        - event:
+            title: "(샘플)2차 드레스 투어 예약"
+            mainCategoryId: 2
+            subCategoryId: 201
+            price: 0
+            location: "미정"
+            weeksBefore: 24
+          tasks:
+            - "구두, 악세서리 추가 여부 결정"
+        - event:
+            title: "(샘플)2차 드레스 투어"
+            mainCategoryId: 2
+            subCategoryId: 201
+            price: 0
+            location: "미정"
+            weeksBefore: 20
+          tasks:
+            - "본 결혼식 드레스 확정"
+            - "스튜디오 촬영 드레스 확정(약 4벌)"
+            - "피로연 드레스 확정"
+        - event:
+            title: "(샘플)최종 드레스 가봉"
+            mainCategoryId: 2
+            subCategoryId: 201
+            price: 0
+            location: "미정"
+            weeksBefore: 10
+          tasks: [ ]
+
+      202:
+        - event:
+            title: "(샘플)메이크업 방문 예약"
+            mainCategoryId: 2
+            subCategoryId: 202
+            price: 0
+            location: "미정"
+            weeksBefore: 24
+          tasks:
+            - "헤어 포함 여부 확인"
+            - "메이크업샵 포트폴리오 및 분위기 확인"
+            - "ex) 투명 메이크업"
+            - "ex) 과즙 메이크업"
+            - "ex) 음영 메이크업"
+            - "메이크업 담당자 직급 및 가격 확인"
+        - event:
+            title: "(샘플)메이크업 선정"
+            mainCategoryId: 2
+            subCategoryId: 202
+            price: 0
+            location: "미정"
+            weeksBefore: 22
+          tasks: [ ]
+
+      203:
+        - event:
+            title: "(샘플)스튜디오 방문 예약"
+            mainCategoryId: 2
+            subCategoryId: 203
+            price: 0
+            location: "미정"
+            weeksBefore: 23
+          tasks:
+            - "스튜디오 포트폴리오 확인"
+            - "스튜디오 촬영 전 웨딩링 구매"
+        - event:
+            title: "(샘플)스튜디오 선정"
+            mainCategoryId: 2
+            subCategoryId: 203
+            price: 0
+            location: "미정"
+            weeksBefore: 21
+          tasks: [ ]
+
+      204:
+        - event:
+            title: "(샘플)스냅사진 촬영"
+            mainCategoryId: 2
+            subCategoryId: 204
+            price: 0
+            location: "미정"
+            weeksBefore: 18
+          tasks:
+            - "청첩장 제작 3개월 전 스튜디오 스냅사진 촬영(스냅사진 완성 후 청첩장 제작 가능)"
+            - "결과물 전달 일정 확인"
+
+      301:
+        - event:
+            title: "(샘플)1차 웨딩링 투어"
+            mainCategoryId: 3
+            subCategoryId: 301
+            price: 0
+            location: "미정"
+            weeksBefore: 21
+          tasks: [ ]
+        - event:
+            title: "(샘플)2차 웨딩링 투어"
+            mainCategoryId: 3
+            subCategoryId: 301
+            price: 0
+            location: "미정"
+            weeksBefore: 19
+          tasks: [ ]
+
+      302:
+        - event:
+            title: "(샘플)혼주 한복 투어 예약"
+            mainCategoryId: 3
+            subCategoryId: 302
+            price: 0
+            location: "미정"
+            weeksBefore: 16
+          tasks: [ ]
+        - event:
+            title: "(샘플)혼주 한복샵 투어"
+            mainCategoryId: 3
+            subCategoryId: 302
+            price: 0
+            location: "미정"
+            weeksBefore: 14
+          tasks:
+            - "한복 디자인 포트폴리오 확인"
+        - event:
+            title: "(샘플)혼주 메이크업 예약"
+            mainCategoryId: 3
+            subCategoryId: 302
+            price: 0
+            location: "미정"
+            weeksBefore: 13
+          tasks:
+            - "한복샵 공동 진행 여부 확인"
+
+      401:
+        - event:
+            title: "(샘플)가전기기 구매"
+            mainCategoryId: 4
+            subCategoryId: 401
+            price: 0
+            location: "미정"
+            weeksBefore: 12
+          tasks:
+            - "가전 우선순위 작성"
+            - "배송일정 확인"
+
+      402:
+        - event:
+            title: "(샘플)가구 구매"
+            mainCategoryId: 4
+            subCategoryId: 402
+            price: 0
+            location: "미정"
+            weeksBefore: 11
+          tasks:
+            - "가구 우선순위 작성"
+            - "배송일정 확인"
+
+      501:
+        - event:
+            title: "(샘플)항공권 예약"
+            mainCategoryId: 5
+            subCategoryId: 501
+            price: 0
+            location: "미정"
+            weeksBefore: 28
+          tasks:
+            - "신혼여행지 확정"
+            - "tip) 하와이, 몰디브의 경우 최소 10개월 전 예약"
+            - "tip) 섬 나라의 경우 어매니티가 제한 - 풀패키지 고려"
+            - "tip) 유럽여행 - 최소 3개월 전에 예약"
+
+      502:
+        - event:
+            title: "(샘플)여행 숙소 예약"
+            mainCategoryId: 5
+            subCategoryId: 502
+            price: 0
+            location: "미정"
+            weeksBefore: 28
+          tasks: [ ]
+
+      503:
+        - event:
+            title: "(샘플)여행 액티비티 예약"
+            mainCategoryId: 5
+            subCategoryId: 503
+            price: 0
+            location: "미정"
+            weeksBefore: 28
+          tasks:
+            - "신혼여행 컨셉 확정"
+            - "ex) 휴식, 여유"
+            - "ex) 액티비티"
+            - "ex) 시티투어"
+
+
+
